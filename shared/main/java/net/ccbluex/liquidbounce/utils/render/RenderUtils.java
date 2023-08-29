@@ -75,7 +75,21 @@ public final class RenderUtils extends MinecraftInstance {
 
         glEndList();
     }
-
+    public static float getAnimationState(float animation, float finalState, float speed) {
+        final float add = deltaTime * speed;
+        if (animation < finalState) {
+            if (animation + add < finalState) {
+                animation += add;
+            } else {
+                animation = finalState;
+            }
+        } else if (animation - add > finalState) {
+            animation -= add;
+        } else {
+            animation = finalState;
+        }
+        return animation;
+    }
     public static void drawOutlinedString(String str, int x, int y, int color,int color2) {
         mc.getFontRendererObj().drawString(str, (int) ((int)x - 1.0F), y, color2);
         mc.getFontRendererObj().drawString(str, (int) (x + 1.0F), y,color2);

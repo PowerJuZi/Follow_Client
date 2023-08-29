@@ -32,6 +32,7 @@ open class HUD : MinecraftInstance() {
                 Text::class.java,
                 ScoreboardElement::class.java,
                 Target::class.java,
+                KeyBinds::class.java,
                 Radar::class.java
         )
 
@@ -40,6 +41,7 @@ open class HUD : MinecraftInstance() {
          */
         @JvmStatic
         fun createDefault() = HUD()
+            .addElement(KeyBinds())
                 .addElement(Text.defaultClient())
                 .addElement(TabGUI())
                 .addElement(Arraylist())

@@ -555,7 +555,7 @@
     "Array": true
   },
   "OldHitting": {
-    "State": false,
+    "State": true,
     "KeyBind": 0,
     "Array": true
   },

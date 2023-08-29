@@ -25,43 +25,6 @@
     }
   },
   {
-    "Type": "TabGUI",
-    "X": 5.0,
-    "Y": 25.0,
-    "Scale": 1.0,
-    "HorizontalFacing": "Left",
-    "VerticalFacing": "Up",
-    "Rainbow-X": -1000.0,
-    "Rainbow-Y": -1000.0,
-    "Rectangle Red": 0,
-    "Rectangle Green": 148,
-    "Rectangle Blue": 255,
-    "Rectangle Alpha": 140,
-    "Rectangle Rainbow": false,
-    "Background Red": 0,
-    "Background Green": 0,
-    "Background Blue": 0,
-    "Background Alpha": 150,
-    "Border": true,
-    "Border Strength": 2.0,
-    "Border Red": 0,
-    "Border Green": 0,
-    "Border Blue": 0,
-    "Border Alpha": 150,
-    "Border Rainbow": false,
-    "Arrows": true,
-    "Font": {
-      "fontName": "Roboto Medium",
-      "fontSize": 35
-    },
-    "TextShadow": false,
-    "TextFade": true,
-    "TextPosition-Y": 2.0,
-    "Width": 60.0,
-    "TabHeight": 12.0,
-    "UpperCase": false
-  },
-  {
     "Type": "Arraylist",
     "X": 1.0,
     "Y": 2.0,
@@ -135,15 +98,6 @@
     }
   },
   {
-    "Type": "Armor",
-    "X": -8.0,
-    "Y": 57.0,
-    "Scale": 1.0,
-    "HorizontalFacing": "Middle",
-    "VerticalFacing": "Down",
-    "Alignment": "Horizontal"
-  },
-  {
     "Type": "Effects",
     "X": 2.0,
     "Y": 10.0,
@@ -163,5 +117,22 @@
     "Scale": 1.0,
     "HorizontalFacing": "Right",
     "VerticalFacing": "Down"
+  },
+  {
+    "Type": "Armor",
+    "X": -8.0,
+    "Y": 58.0,
+    "Scale": 1.0,
+    "HorizontalFacing": "Middle",
+    "VerticalFacing": "Down",
+    "Alignment": "Horizontal"
+  },
+  {
+    "Type": "KeyBinds",
+    "X": 64.0,
+    "Y": 120.0,
+    "Scale": 1.0999999,
+    "HorizontalFacing": "Left",
+    "VerticalFacing": "Up"
   }
 ]
